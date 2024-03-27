@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  justify-content: flex-start;
+}
+
+.header .free-test-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header .free-test-button:hover {
+  background-color: #0069d9;
+}
+
+.header .company-logo {
+  height: 50px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.header .nav-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.header .nav-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav-items li {
+  padding: 0 10px;
+  margin-right: 20px; 
+}
+
+.header .nav-items li:first-child {
+  margin-left: 0;
+}
+
+.header .nav-items ul li {
+  padding: 0 10px;
+}
+
+.header .nav-items ul li:last-child {
+  margin-right: 0;
+}
+
+.header .nav-items ul li a {
+  display: block;
+  padding: 5px 10px;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.header .nav-items ul li a:hover {
+  background-color: #ddd;
+}
+
+.header .button-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* alinha o conteúdo ao canto direito */
+  margin-left: auto; /* desloca a container do canto esquerdo ao canto direito */
+}
+
+.button-container button {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+  .header ul {
+    margin: 10px 0;
+  }
+  .header .free-test-button {
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  .button-container {
+    margin-top: 10px;
+  }
+
+  .header .button-container {
+    margin: 10px 0;
+    display: block;
+    text-align: center;
+  }
+}
