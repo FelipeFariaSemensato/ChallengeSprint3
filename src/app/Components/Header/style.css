@@ -17,7 +17,7 @@
 }
 
 .header .free-test-button:hover {
-  background-color: #0069d9;
+  background-color: #0053ac;
 }
 
 .header .company-logo {
@@ -73,12 +73,19 @@
 .header .button-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* alinha o conteúdo ao canto direito */
-  margin-left: auto; /* desloca a container do canto esquerdo ao canto direito */
+  justify-content: flex-end; 
+  margin-left: auto; 
 }
 
 .button-container button {
   margin-left: 10px;
+}
+
+.image-container{
+  display: flex;
+  color: #141C67;
+  align-items: center;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 768px) {

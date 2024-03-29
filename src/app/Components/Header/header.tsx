@@ -20,8 +20,15 @@ const Header = () => {
         </nav>
       </div>
       <div className="button-container">
-          <button className="free-test-button">Teste grátis</button>
+        <div className="image-container">
+          <img src="acessibilidade.png" alt="Image 1" width="32" height="32" />
+          <img src="lupa.png" alt="Image 2" width="32" height="32" />
+          <img src="local.png" alt="Image 3" width="32" height="32" />
+          <img src="perfil.png" alt="Image 3" width="32" height="32" />
+          <h1>Login</h1>
         </div>
+        <button className="free-test-button">Teste grátis</button>
+      </div>
     </header>
   );
 };
