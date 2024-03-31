@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   justify-content: flex-start;
 }
 
@@ -29,7 +29,7 @@
 .header .nav-items {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .header .nav-items ul {
@@ -37,6 +37,8 @@
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
 }
 
@@ -58,7 +60,7 @@
 }
 
 .header .nav-items ul li a {
-  display: block;
+  display: inline-block;
   padding: 5px 10px;
   color: #000;
   text-decoration: none;
@@ -88,7 +90,9 @@
   margin-right: 10px;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 900px) {
   .header {
     flex-direction: column;
   }
