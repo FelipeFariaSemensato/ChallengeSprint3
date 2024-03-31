@@ -65,14 +65,13 @@ figure{
 }
 
 .contato{
-font-family: Roboto, sans-serif;
 font-weight: 0;
 font-size: 14px;
 color: #fff;
 background-color: #0066CC;
 padding: 10px 44px;
 border: none;
-box-shadow: none;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 border-radius: 50px;
 transition : 1000ms;
 transform: translateY(0);
@@ -89,4 +88,10 @@ transform : translateY(-0px);
 background-color: #fff;
 color: #0066cc;
 border: solid 2px #0066cc;
+}
+
+.botao{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
 }

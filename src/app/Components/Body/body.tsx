@@ -24,7 +24,9 @@ const SalesforceCustomer360 = () => {
     <img src='fundo.png'/>
     </figure>
     </div>
+    <div className='botao'>
     <button className='contato'>Contato</button> 
+    </div>
     </div>  
   );
 };
