@@ -1,16 +1,16 @@
 import React from 'react';
-import '../Body/style.css';
+import './style.css';
 
 
 const SalesforceCustomer360 = () => {
   return (
-    <body>
+  <div className='container'>
+  <div className='mid'> 
     <div className='write'>
       <h2 className='title'>Entregue sucesso agora <br/> com o Salesforce <br/> Customer 360</h2>
       <p>
         O Customer 360 é a nossa suite de produtos e serviços que <br/> ajuda 98% dos clientes a alcançar ou superar suas metas de <br/> ROI.
-      </p>
-    </div> 
+      </p> 
     <div className='buttons'>
       <button className='free-test-button'>
         Faça o teste grátis
@@ -19,7 +19,13 @@ const SalesforceCustomer360 = () => {
         Saiba mais
       </button>
     </div>  
-    </body>
+    </div>
+    <figure>
+    <img src='fundo.png'/>
+    </figure>
+    </div>
+    <button className='contato'>Contato</button> 
+    </div>  
   );
 };
 
