@@ -91,7 +91,33 @@ border: solid 2px #0066cc;
 }
 
 .botao{
-    position: absolute;
-    bottom: 1rem;
+    position: relative;
+    top: 40rem;
     right: 1rem;
 }
+
+@media only screen and (max-width: 830px) {
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        position: relative;
+        top: 60rem;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+    .botao{
+       position: relative;
+       top: 50rem;
+    }
+  }
+
+  @media only screen and (max-width: 765px) {
+    .botao{
+       position: relative;
+       top: 80rem;
+    }
+  }
