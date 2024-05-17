@@ -1,9 +1,8 @@
-import React from 'react';
 import './style.css';
 
-
-const SalesforceCustomer360 = () => {
+export default function Home() {
   return (
+    <main>     
   <div className='container'>
   <div className='mid'> 
     <div className='write'>
@@ -28,7 +27,7 @@ const SalesforceCustomer360 = () => {
     <button className='contato'>Contato</button> 
     </div>
     </div>  
-  );
-};
 
-export default SalesforceCustomer360;
+</main>
+  );
+}
