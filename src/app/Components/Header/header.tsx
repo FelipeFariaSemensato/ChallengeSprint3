@@ -1,13 +1,11 @@
 import React from "react";
 import '../Header/style.css';
-import Link from 'next/link'
-
 
 const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img src="./logo.png" className="company-logo"/>
+      <a href="."><img src="./logo.png" className="company-logo"/></a>
       </div>
       <div className="nav-wrapper">
         <nav className="nav-items">
@@ -26,7 +24,6 @@ const Header = () => {
           <img src="lupa.png" alt="Image 2" width="40" height="32" />
           <img src="local.png" alt="Image 3" width="32" height="32" />
           <a href="/cadastro"><img src="perfil.png" alt="Image 3" width="32" height="32" /></a>
-          <h1>Login</h1>
         </div>
         <button className="free-test-button">Teste grátis</button>
       </div>
